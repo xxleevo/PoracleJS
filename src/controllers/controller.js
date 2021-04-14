@@ -133,7 +133,7 @@ class Controller {
 			geoCache.save(true)
 			return result
 		} catch (err) {
-			throw { source: 'getAddress', error: err }
+			//throw { source: 'getAddress', error: err }
 		}
 	}
 
