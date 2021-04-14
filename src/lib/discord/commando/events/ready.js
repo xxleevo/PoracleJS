@@ -2,7 +2,8 @@ module.exports = (client) => {
 	client.log.info(`Commando "${client.user.tag}" awaiting for orders!`)
 	client.user.setPresence({
 		game: {
-			name: 'PoGo mit James',
+			name: '100 IV Mons',
+			type: "STREAMING"
 		},
 	})
 }
